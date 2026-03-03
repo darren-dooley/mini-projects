@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Darren Dooley <darrendooley8@gmail.com>"]
+channels = ["conda-forge", "https://conda.modular.com/max"]
+name = "python-http-server"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = "*"
